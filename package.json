@@ -1,0 +1,35 @@
+{
+  "name": "@restmatic/controllers",
+  "version": "0.0.0",
+  "description": "Data Controllers for the RestMatic platform.",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "RestMatic",
+    "Pomegranate",
+    "MVC"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.13.4",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^1.2.2",
+    "lodash": "^4.17.11"
+  }
+}
