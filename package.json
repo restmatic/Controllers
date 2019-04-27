@@ -1,6 +1,6 @@
 {
   "name": "@restmatic/controllers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Data Controllers for the RestMatic platform.",
   "main": "index.js",
   "files": [
