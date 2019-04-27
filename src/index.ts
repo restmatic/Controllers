@@ -22,11 +22,21 @@ export const Controller = (PluginLogger) => {
   }
 }
 `
+
+export interface RestmaticController {
+
+}
+
+export interface RestmaticControllers {
+  [key: string]: RestmaticController
+}
+
 export const Plugin = CreatePlugin('anything')
   .configuration({
     name: 'Controllers',
     injectableParam: 'Controllers',
-    provides: ['@restmatic/Core']
+    provides: ['@restmatic/Core'],
+    optional: ['SQL']
   })
   .variables({})
   .directories([{path: '.', prop: 'main'}])
