@@ -29,7 +29,7 @@
     "typescript": "^3.4.3"
   },
   "dependencies": {
-    "@pomegranate/plugin-tools": "^1.2.2",
+    "@pomegranate/plugin-tools": "^2.0.7",
     "lodash": "^4.17.11"
   }
 }
